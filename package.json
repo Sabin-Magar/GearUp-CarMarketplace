@@ -7,8 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "postinstall": "npx prisma generate --no-engine-validation || echo '⚙️ Skipped Prisma generate on Vercel'"
-
+    "postinstall": "echo 'Skipping Prisma generate on Vercel'"
   },
   "dependencies": {
     "@arcjet/inspect": "^1.0.0-beta.14",
