@@ -20,7 +20,7 @@ const AdminLayout = async ({ children }) => {
      <div className="h-full">
       <Header isAdminPage={true} />
       <div className="flex h-full w-56 flex-col top-20 fixed inset-y-0 z-50">
-        <aside className="hidden md:flex w-56 flex-col border-r bg-white shadow-sm">
+        <aside className="flex w-56 flex-col border-r bg-white shadow-sm">
           <Sidebar />
         </aside>
       </div>
