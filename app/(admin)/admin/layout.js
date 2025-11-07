@@ -4,6 +4,7 @@ import { notFound } from 'next/navigation';
 import React from 'react'
 import Sidebar from './_components/sidebar';
 
+export const runtime = 'nodejs';
 export const dynamic = 'force-dynamic';
 
 const AdminLayout = async ({ children }) => {
