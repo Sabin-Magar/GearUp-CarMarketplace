@@ -86,7 +86,7 @@ export default SignInPage;
 //               value={password}
 //               onChange={(e) => setPassword(e.target.value)}
 //               required
-//               placeholder="••••••••"
+//               placeholder="Enter your password"
 //               className="w-full mt-1 px-4 py-3 bg-zinc-800 border border-zinc-700 rounded-lg text-white placeholder-gray-400 focus:outline-none focus:border-amber-400"
 //             />
 //           </div>

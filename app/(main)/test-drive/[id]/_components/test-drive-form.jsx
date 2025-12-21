@@ -221,7 +221,7 @@ export function TestDriveForm({ car, testDriveInfo }) {
             </h3>
 
             <div className="mt-2 text-xl font-bold text-blue-600">
-              ${car.price.toLocaleString()}
+              Rs. {car.price.toLocaleString()}
             </div>
 
             <div className="mt-4 text-sm text-gray-500">
